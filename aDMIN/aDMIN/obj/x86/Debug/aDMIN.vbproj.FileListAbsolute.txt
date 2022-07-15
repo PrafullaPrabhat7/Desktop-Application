@@ -1,0 +1,18 @@
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\bin\Debug\aDMIN.exe
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\bin\Debug\aDMIN.pdb
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\bin\Debug\aDMIN.xml
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\obj\x86\Debug\aDMIN.Form1.resources
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\obj\x86\Debug\aDMIN.Form2.resources
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\obj\x86\Debug\aDMIN.Resources.resources
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\obj\x86\Debug\aDMIN.exe
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\obj\x86\Debug\aDMIN.xml
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\obj\x86\Debug\aDMIN.pdb
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\obj\x86\Debug\aDMIN.Form3.resources
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\obj\x86\Debug\aDMIN.Form4.resources
+C:\Users\DELL\Documents\Visual Studio 2010\Projects\aDMIN\aDMIN\obj\x86\Debug\aDMIN.Form5.resources
+G:\Spider\LAppy For\minor\aDMIN\aDMIN\obj\x86\Debug\aDMIN.exe
+G:\Spider\LAppy For\minor\aDMIN\aDMIN\obj\x86\Debug\aDMIN.xml
+G:\Spider\LAppy For\minor\aDMIN\aDMIN\obj\x86\Debug\aDMIN.pdb
