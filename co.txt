@@ -1,0 +1,150 @@
+
+
+
+
+                                 *login*
+
+Public Class Form2
+    Dim con As New SqlConnection
+    Dim cmd As New SqlCommand
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        con = New SqlConnection
+        con.ConnectionString = "Data Source=(local);Initial Catalog=rk;Integrated Security=True"
+        Dim reader As SqlDataReader
+
+        Try
+            con.Open()
+            cmd = New SqlCommand("select * from kishan where id='" & TextBox1.Text & "'and name='" & TextBox2.Text & "'", con)
+            reader = cmd.ExecuteReader
+            If reader.Read Then
+                If RadioButton1.Checked Then
+                    Form1.Show()
+                ElseIf RadioButton2.Checked Then
+                    Form3.Show()
+                End If
+
+            Else
+                MessageBox.Show("Invalid details", "Login Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error)
+            End If
+
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        Finally
+            con.Close()
+        End Try
+    End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        TextBox1.Text = ""
+        TextBox2.Text = ""
+    End Sub
+End Class   
+
+
+
+
+
+                                  *delete*
+ Dim con As New SqlConnection
+    Dim cmd As New SqlCommand
+
+  Try
+            con.ConnectionString = "Data Source=(local);Initial Catalog=rk;Integrated Security=True"
+            con.Open()
+            cmd.Connection = con
+
+            cmd = New SqlCommand("delete from kishan where id=('" & TextBox1.Text & "')", con)
+
+            cmd.ExecuteNonQuery()
+
+        Catch ex As Exception
+
+            MessageBox.Show("Invalid" & ex.Message)
+        Finally
+            con.Close()
+        End Try
+    End Sub     
+
+
+
+                                   *update* 
+
+ Dim con As New SqlConnection
+    Dim cmd As New SqlCommand
+
+Try
+            con.ConnectionString = "Data Source=(local);Initial Catalog=rk;Integrated Security=True"
+            con.Open()
+            cmd.Connection = con
+
+            cmd = New SqlCommand("update kishan set id='" & TextBox1.Text & "',name='" & TextBox2.Text & "' where id='" & TextBox1.Text & "'", con)
+
+            cmd.ExecuteNonQuery()
+
+        Catch ex As Exception
+
+            MessageBox.Show("Invalid" & ex.Message)
+        Finally
+            con.Close()
+        End Try   
+
+
+
+
+
+
+                                         *insert*
+
+
+
+ Dim con As New SqlConnection
+    Dim cmd As New SqlCommand
+
+
+        Try
+            con.ConnectionString = "Data Source=(local);Initial Catalog=amar3;Integrated Security=True"
+            con.Open()
+            cmd.Connection = con
+
+            cmd = New SqlCommand("insert into amar2 ([id], [name]) values ('" & TextBox1.Text & "','" & TextBox2.Text & "')", con)
+
+            cmd.ExecuteNonQuery()
+
+        Catch ex As Exception
+
+            MessageBox.Show("Invalid" & ex.Message)
+        Finally
+            con.Close()
+        End Try                    
+
+
+
+
+
+
+                                             *2nd login**
+ Dim con As New SqlConnection
+    Dim cmd As New SqlCommand
+
+ con = New SqlConnection
+        con.ConnectionString = "Data Source=(local);Initial Catalog=minor;Integrated Security=True"
+        Dim reader As SqlDataReader
+
+        Try
+            con.Open()
+            cmd = New SqlCommand("select * from project where name='" & TextBox1.Text & "'and pswd='" & TextBox2.Text & "'", con)
+            reader = cmd.ExecuteReader
+            If reader.Read Then
+                Form2.Show()
+
+            Else
+                MessageBox.Show("Invalid details", "Login Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error)
+            End If
+
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+
+        Finally
+            con.Close()
+        End Try
