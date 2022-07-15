@@ -1,0 +1,15 @@
+c:\users\dell\documents\visual studio 2010\Projects\minorproject\minorproject\bin\Debug\minorproject.exe
+c:\users\dell\documents\visual studio 2010\Projects\minorproject\minorproject\bin\Debug\minorproject.pdb
+c:\users\dell\documents\visual studio 2010\Projects\minorproject\minorproject\bin\Debug\minorproject.xml
+c:\users\dell\documents\visual studio 2010\Projects\minorproject\minorproject\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2010\Projects\minorproject\minorproject\obj\x86\Debug\minorproject.Form1.resources
+c:\users\dell\documents\visual studio 2010\Projects\minorproject\minorproject\obj\x86\Debug\minorproject.Resources.resources
+c:\users\dell\documents\visual studio 2010\Projects\minorproject\minorproject\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\dell\documents\visual studio 2010\Projects\minorproject\minorproject\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\dell\documents\visual studio 2010\Projects\minorproject\minorproject\obj\x86\Debug\minorproject.exe
+c:\users\dell\documents\visual studio 2010\Projects\minorproject\minorproject\obj\x86\Debug\minorproject.xml
+c:\users\dell\documents\visual studio 2010\Projects\minorproject\minorproject\obj\x86\Debug\minorproject.pdb
+C:\Users\DELL\documents\visual studio 2010\Projects\minorproject\minorproject\obj\x86\Debug\minorproject.Form2.resources
+C:\Users\DELL\documents\visual studio 2010\Projects\minorproject\minorproject\obj\x86\Debug\minorproject.Form3.resources
+C:\Users\DELL\documents\visual studio 2010\Projects\minorproject\minorproject\obj\x86\Debug\minorproject.Form4.resources
+C:\Users\DELL\documents\visual studio 2010\Projects\minorproject\minorproject\obj\x86\Debug\minorproject.Form5.resources
